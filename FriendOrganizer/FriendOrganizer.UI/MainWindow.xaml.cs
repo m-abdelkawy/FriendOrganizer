@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FriendOrganizer.UI.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,20 @@ namespace FriendOrganizer.UI
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly MainViewModel _mainViewModel;
+
+        public MainWindow(MainViewModel mainViewModel)
         {
             InitializeComponent();
+            DataContext = mainViewModel;
+
+            Loaded += MainWindow_Loaded;
+            _mainViewModel = mainViewModel;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            _mainViewModel.Load();
         }
     }
 }

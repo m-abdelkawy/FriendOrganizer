@@ -1,8 +1,16 @@
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\FriendOrganizer.DataAcess.dll.config
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\FriendOrganizer.DataAcess.dll
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\FriendOrganizer.DataAcess.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\EntityFramework.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\EntityFramework.SqlServer.dll
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\FriendOrganizer.Model.dll
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\FriendOrganizer.Model.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\EntityFramework.xml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\bin\Debug\EntityFramework.SqlServer.xml
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.csprojAssemblyReference.cache
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.Migrations.InitialDatabase.resources
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.Migrations.InitialDatabase1.resources
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.csproj.GenerateResource.cache
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.csproj.CoreCompileInputs.cache
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.csproj.CopyComplete
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.DataAcess\obj\Debug\FriendOrganizer.DataAcess.dll

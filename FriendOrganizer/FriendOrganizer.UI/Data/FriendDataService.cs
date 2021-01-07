@@ -1,16 +1,23 @@
-﻿using FriendOrganizer.Model;
+﻿using FriendOrganizer.Infrastructure.Repositories;
+using FriendOrganizer.Infrastructure.UnitOfWork;
+using FriendOrganizer.Model;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.Data
 {
     public class FriendDataService : IFriendDataService
     {
-        public IEnumerable<Friend> GetAll()
+        private readonly IUnitOfWork _unitOfWork;
+
+        public FriendDataService(IUnitOfWork unitOfWork)
         {
-            yield return new Friend() { FirstName = "hamada 1", LastName = "el gen 1" };
-            yield return new Friend() { FirstName = "hamada 2", LastName = "el gen 2" };
-            yield return new Friend() { FirstName = "hamada 3", LastName = "el gen 3" };
-            yield return new Friend() { FirstName = "hamada 4", LastName = "el gen 4" };
+            _unitOfWork = unitOfWork;
+        }
+        public async Task<IEnumerable<Friend>> GetAllAsync()
+        {
+            return await _unitOfWork.FriendRepository.GetAllAsync();
         }
     }
 }

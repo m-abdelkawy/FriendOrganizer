@@ -1,0 +1,17 @@
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.Infrastructure.dll.config
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.Infrastructure.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.Infrastructure.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\EntityFramework.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.DataAcess.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.Model.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.DataAcess.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.DataAcess.dll.config
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\FriendOrganizer.Model.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\EntityFramework.xml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\obj\Debug\FriendOrganizer.Infrastructure.csprojAssemblyReference.cache
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\obj\Debug\FriendOrganizer.Infrastructure.csproj.CoreCompileInputs.cache
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\obj\Debug\FriendOrganizer.Infrastructure.csproj.CopyComplete
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\obj\Debug\FriendOrganizer.Infrastructure.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Infrastructure\obj\Debug\FriendOrganizer.Infrastructure.pdb

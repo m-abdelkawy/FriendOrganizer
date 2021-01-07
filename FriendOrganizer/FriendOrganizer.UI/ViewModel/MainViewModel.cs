@@ -3,6 +3,7 @@ using FriendOrganizer.UI.Data;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.ViewModel
 {
@@ -31,9 +32,9 @@ namespace FriendOrganizer.UI.ViewModel
             _friendDataService = friendDataService;
         }
 
-        public void Load()
+        public async Task LoadAsync()
         {
-            var lstFriend = _friendDataService.GetAll();
+            var lstFriend = await _friendDataService.GetAllAsync();
             Friends.Clear();
             foreach (var friend in lstFriend)
             {

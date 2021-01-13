@@ -30,7 +30,7 @@ namespace FriendOrganizer.Infrastructure.Repositories
 
         public virtual void DeleteById(params object[] id)
         {
-            T entity = GetById(id).Result;
+            T entity = GetByIdAsync(id).Result;
             Delete(entity);
         }
 
@@ -41,10 +41,10 @@ namespace FriendOrganizer.Infrastructure.Repositories
 
         public virtual async Task<IEnumerable<T>> GetAllAsync()
         {
-            return await _ctx.Set<T>().ToListAsync();
+            return await _ctx.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        public virtual async Task<T> GetById(params object[] id)
+        public virtual async Task<T> GetByIdAsync(params object[] id)
         {
             return await _ctx.Set<T>().FindAsync(id);
         }

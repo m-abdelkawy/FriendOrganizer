@@ -43,3 +43,8 @@ E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOr
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml

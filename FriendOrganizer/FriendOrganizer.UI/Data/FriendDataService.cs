@@ -15,9 +15,9 @@ namespace FriendOrganizer.UI.Data
         {
             _unitOfWork = unitOfWork;
         }
-        public async Task<IEnumerable<Friend>> GetAllAsync()
+        public async Task<Friend> GetByIdAsync(int id)
         {
-            return await _unitOfWork.FriendRepository.GetAllAsync();
+            return await _unitOfWork.FriendRepository.GetByIdAsync(id);
         }
     }
 }

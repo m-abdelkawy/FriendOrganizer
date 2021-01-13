@@ -11,7 +11,7 @@ namespace FriendOrganizer.Infrastructure.Repositories
     {
         T Add(T entity);
         void Update(T entity);
-        Task<T> GetById(params Object[] id);
+        Task<T> GetByIdAsync(params Object[] id);
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
         //Task<int> SaveChanges();

@@ -48,3 +48,6 @@ E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\Generate
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Prism.dll
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Prism.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Prism.xml

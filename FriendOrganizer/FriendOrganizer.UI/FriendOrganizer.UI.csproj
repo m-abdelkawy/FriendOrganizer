@@ -96,12 +96,14 @@
     <Compile Include="Data\LookupDataService.cs" />
     <Compile Include="Data\IFriendLookupDataService.cs" />
     <Compile Include="Event\OpenFriendDetailViewEvent.cs" />
+    <Compile Include="Event\AfterFriendSavedEvent.cs" />
     <Compile Include="Startup\Bootstrapper.cs" />
-    <Compile Include="ViewModel\FriendDetailViewModel.cs" />
-    <Compile Include="ViewModel\IFriendDetailViewModel.cs" />
-    <Compile Include="ViewModel\INavigationViewModel.cs" />
+    <Compile Include="ViewModel\FriendDetail\FriendDetailViewModel.cs" />
+    <Compile Include="ViewModel\FriendDetail\IFriendDetailViewModel.cs" />
+    <Compile Include="ViewModel\Navigation\INavigationViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\NavigationViewModel.cs" />
+    <Compile Include="ViewModel\Navigation\NavigationItemViewModel.cs" />
+    <Compile Include="ViewModel\Navigation\NavigationViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\FriendDetailView.xaml.cs">
       <DependentUpon>FriendDetailView.xaml</DependentUpon>
@@ -173,6 +175,7 @@
       <Name>FriendOrganizer.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

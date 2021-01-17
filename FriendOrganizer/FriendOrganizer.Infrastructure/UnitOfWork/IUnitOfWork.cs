@@ -11,5 +11,6 @@ namespace FriendOrganizer.Infrastructure.UnitOfWork
     public interface IUnitOfWork
     {
         IRepository<Friend> FriendRepository { get; }
+        Task<bool> SaveChangesAsync();
     }
 }

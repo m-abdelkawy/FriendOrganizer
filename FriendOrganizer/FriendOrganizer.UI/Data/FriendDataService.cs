@@ -19,5 +19,12 @@ namespace FriendOrganizer.UI.Data
         {
             return await _unitOfWork.FriendRepository.GetByIdAsync(id);
         }
+
+        public async Task<bool> SaveAsync(Friend friend)
+        {
+            _unitOfWork.FriendRepository.Update(friend);
+
+            return await _unitOfWork.SaveChangesAsync();
+        }
     }
 }

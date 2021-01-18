@@ -3,3 +3,4 @@ E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Model\bin\Debug\Frien
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.CoreCompileInputs.cache
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
 E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
+E:\My Code\FriendOrganizer\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojAssemblyReference.cache

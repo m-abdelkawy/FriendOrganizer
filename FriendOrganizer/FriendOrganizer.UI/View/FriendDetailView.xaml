@@ -20,15 +20,15 @@
         </Grid.RowDefinitions>
         
         <Label Content="First Name" Margin="10 10 10 0"/>
-        <TextBox Grid.Row="1" Text="{Binding SelectedFriend.FirstName, 
+        <TextBox Grid.Row="1" Text="{Binding Friend.FirstName, 
             Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10 0 10 10"/>
 
         <Label Grid.Row="2" Content="First Name" Margin="10 0"/>
-        <TextBox Grid.Row="3" Text="{Binding SelectedFriend.LastName, 
+        <TextBox Grid.Row="3" Text="{Binding Friend.LastName, 
             Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10 0 10 10"/>
 
         <Label Grid.Row="4" Content="Email" Margin="10 0"/>
-        <TextBox Grid.Row="5" Text="{Binding SelectedFriend.Email, 
+        <TextBox Grid.Row="5" Text="{Binding Friend.Email, TargetNullValue='',
             Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10 0 10 10"/>
 
         <StackPanel Grid.Row="7" Orientation="Horizontal">

@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using FriendOrganizer.UI.Startup;
+using System;
 using System.Windows;
 
 namespace FriendOrganizer.UI
@@ -21,6 +22,15 @@ namespace FriendOrganizer.UI
                 new FriendDataService()));*/
 
             mainWindow.Show();
+        }
+
+        private void Application_DispatcherUnhandledException(object sender
+            , System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
+        {
+            MessageBox.Show("Unexpected error occured. Please contact the admin." + Environment.NewLine + e.Exception.Message,
+                "Unexpected Error!");
+
+            e.Handled = true;
         }
     }
 }
